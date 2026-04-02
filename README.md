@@ -1,4 +1,5 @@
 # Term-Project-8
+
 **Library Management System**
 This Library Mangement System allows users to manage books, borrowers, and transactions (borrowing/returning books). 
 This project applies OOP principles, file handling, collections, and CLI interactions.
@@ -21,7 +22,9 @@ Project Features:
    - Store book & borrower data in text files (books.txt, borrowers.txt).
 6. CLI-Based
    - Console-based menu using Scanner.
---------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------
+
 **Technology Stack**
 Programming Language: Java (JDK 11+)
 Concepts Covered:
@@ -29,14 +32,16 @@ Concepts Covered:
   - Collections: ArrayList, HashMap
   - File Handling: Read/write operations
   - User Interface: Console
---------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------
+
 **Project Structure**
-LibraryManagementSystem/
-|-- src/
-|   |-- models/
+LibraryManagementSystem
+|-- src
+|   |-- models
 |   |   |-- Book.java
 |   |   |-- Borrower.java
-|   |-- services/
+|   |-- services
 |   |   |-- LibraryService.java
 |   |   |-- FileHandler.java (or DatabaseHandler.java)
 |   |-- ui/
@@ -44,6 +49,8 @@ LibraryManagementSystem/
 |-- books.txt
 |-- borrowers.txt
 |-- README.md (Documentation)
---------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------
+
 **Contributors**
 Batch567 - Marv Fiscus
