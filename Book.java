@@ -1,7 +1,8 @@
 /** 
  * This abstract Book class is part of the Library Mangement System, which allows users to manage 
  * books, borrowers, and transactions (borrowing/ returning books). This class creates a Book 
- * object with the attributes ID, title, author, genre, and availability. This class also provides * methods to borrow and return books, as well as print book object information.
+ * object with the attributes ID, title, author, genre, and availability. This class also provides 
+ * methods to borrow and return books, as well as print book object information.
  */
 
 public class Book {
