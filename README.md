@@ -32,18 +32,18 @@ Concepts Covered:
 --------------------------------------------------------------------------------------------------------------------
 **Project Structure**
 LibraryManagementSystem/
-│── src/
-│   ├── models/
-│   │   ├── Book.java
-│   │   ├── Borrower.java
-│   ├── services/
-│   │   ├── LibraryService.java
-│   │   ├── FileHandler.java (or DatabaseHandler.java)
-│   ├── ui/
-│   │   ├── Main.java (CLI)
-│── books.txt
-│── borrowers.txt
-│── README.md (Documentation)
+|-- src/
+|   |-- models/
+|   |   |-- Book.java
+|   |   |-- Borrower.java
+|   |-- services/
+|   |   |-- LibraryService.java
+|   |   |-- FileHandler.java (or DatabaseHandler.java)
+|   |-- ui/
+|   |   |-- Main.java (CLI)
+|-- books.txt
+|-- borrowers.txt
+|-- README.md (Documentation)
 --------------------------------------------------------------------------------------------------------------------
 **Contributors**
 Batch567 - Marv Fiscus
