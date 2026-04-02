@@ -1,8 +1,8 @@
 # Term-Project-8
 
-**Library Management System**
-This Library Mangement System allows users to manage books, borrowers, and transactions (borrowing/returning books). 
-This project applies OOP principles, file handling, collections, and CLI interactions.
+**Library Management System**  
+This Library Mangement System allows users to manage books, borrowers, and transactions (borrowing/returning 
+books). This project applies OOP principles, file handling, collections, and CLI interactions.  
 
 Project Features:
 1. Book Mangement
@@ -25,8 +25,8 @@ Project Features:
 
 -------------------------------------------------------------------------------------------------------------------
 
-**Technology Stack**
-Programming Language: Java (JDK 11+)
+**Technology Stack**  
+Programming Language: Java (JDK 11+)  
 Concepts Covered:
   - OOP: Encapsulation, inheritance, polymorphism
   - Collections: ArrayList, HashMap
@@ -35,22 +35,22 @@ Concepts Covered:
 
 -------------------------------------------------------------------------------------------------------------------
 
-**Project Structure**
-LibraryManagementSystem
-|-- src
-|   |-- models
-|   |   |-- Book.java
-|   |   |-- Borrower.java
-|   |-- services
-|   |   |-- LibraryService.java
-|   |   |-- FileHandler.java (or DatabaseHandler.java)
-|   |-- ui/
-|   |   |-- Main.java (CLI)
-|-- books.txt
-|-- borrowers.txt
-|-- README.md (Documentation)
+**Project Structure**  
+LibraryManagementSystem  
+|-- src  
+|   |-- models  
+|   |   |-- Book.java  
+|   |   |-- Borrower.java  
+|   |-- services  
+|   |   |-- LibraryService.java  
+|   |   |-- FileHandler.java (or DatabaseHandler.java)  
+|   |-- ui/  
+|   |   |-- Main.java (CLI)  
+|-- books.txt  
+|-- borrowers.txt  
+|-- README.md (Documentation)  
 
 -------------------------------------------------------------------------------------------------------------------
 
-**Contributors**
+**Contributors**  
 Batch567 - Marv Fiscus
