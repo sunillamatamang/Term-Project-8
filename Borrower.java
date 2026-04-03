@@ -9,6 +9,10 @@ public class Borrower {
   
   // Attributes
 
+  private int id;
+  private String name;
+  private String contact;
+
 
 
   // Constructor
@@ -20,13 +24,30 @@ public class Borrower {
    * @param contact The borrower's contact details.
    */
 
+  public Borrower(int id, String name, String contact) {
+  this.id = id;
+  this.name = name;
+  this.contact = contact;
+  }
+
 
 
   /**
    * The ... method prints out the Borrower object attributes...
    * @return String of Book object attributes.
    */
+  ..
+  public int getId() {
+      return id;
+  }
 
+  public String getName() {
+      return name;
+  }
+
+  public String getContact() {
+      return contact;
+    }
 
 
 }
