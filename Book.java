@@ -33,10 +33,22 @@ public class Book {
     this.isAvailable = true; // Default to available
   }
 
+  // Getter methods to access private fields
+  public int getId() { return id; }
+  public String getTitle() { return title; }
+  public String getAuthor() { return author; }
+  public String getGenre() { return genre; }
+  public boolean isAvailable() { return availability; }
+
   // Method to set book availability to borrowed.
   public void borrowBook() { this.isAvailable = false; }
   // Method to set book availability to available.
   public void returnBook() { this.isAvailable = true; }
+
+  // Setter methods used in edit functionality
+  public void setTitle(String title) { this.title = title; }
+  public void setAuthor(String author) { this.author = author; }
+  public void setGenre(String genre) { this.genre = genre; }
   
   /**
    * The toString method prints out the Book object attributes id, title, author, and isAvailable.
